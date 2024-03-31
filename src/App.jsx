@@ -1,5 +1,5 @@
 import './App.css'
-import FromSubmit from './FromSubmit'
+import NameRefer from './Components/NameRefer'
 
 function App() {
  
@@ -7,7 +7,9 @@ function App() {
     <>
       
       <h1 className='text-3xl bg-teal-800 text-white '>Vite + React</h1>
-      <FromSubmit></FromSubmit>
+      {/* <FromSubmit></FromSubmit> */}
+      {/* <StateFullFrom></StateFullFrom> */}
+      <NameRefer></NameRefer>
      
       
       
