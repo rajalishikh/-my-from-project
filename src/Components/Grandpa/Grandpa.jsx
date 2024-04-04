@@ -3,7 +3,7 @@ import Son from "../Son/Son";
 import Uncle from "../Uncle/Uncle";
 import Unty from "../Unty/Unty";
 
-const AssetContext = createContext();
+export const AssetContext = createContext('Dimond');
 
 
 const Grandpa = () => {
